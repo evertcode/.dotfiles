@@ -1,0 +1,20 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "python",
+    "typescript",
+    "typescriptreact",
+    "java"
+  ],
+  "coc.preferences.formatOnType": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}
