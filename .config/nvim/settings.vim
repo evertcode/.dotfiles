@@ -11,15 +11,20 @@ set showmatch
 set sw=4
 set relativenumber
 
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
 if(has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme duskfox
-"colorscheme gruvbox
-"let g:gruvbox_bold=1
-"let g:gruvbox_termcolors='256'
-"let g:gruvbox_contrast_dark = "hard"
+"colorscheme duskfox
+colorscheme gruvbox
+let g:gruvbox_bold=1
+let g:gruvbox_termcolors='256'
+let g:gruvbox_contrast_dark = "hard"
 
 highlight Normal ctermbg=NONE
 
