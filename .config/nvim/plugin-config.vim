@@ -60,7 +60,7 @@ nnoremap <silent> <C-b> :NERDTreeToggle<CR>
 let g:javascript_plugin_flow = 1
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsSnippetDirectories=['/Users/evertcode/.config/nvim/ultisnips']
+let g:UltiSnipsSnippetDirectories=['~/.config/nvim/ultisnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
